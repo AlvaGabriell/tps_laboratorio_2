@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+    <ProjectReference Include="..\FormProfesor\FormProfesor.csproj" />
+    <ProjectReference Include="..\MenuAbm\MenuAbm.csproj" />
+    <ProjectReference Include="..\MenuListado\MenuListado.csproj" />
+  </ItemGroup>
+
+</Project>

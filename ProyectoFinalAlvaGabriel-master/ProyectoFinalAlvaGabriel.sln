@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{CEEF6903-B0DD-422B-82F8-993D07DE78BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuPrincipal", "ProyectoGym\MenuPrincipal.csproj", "{F33DC86B-80DF-4B60-99D7-0CCA9025C1C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuAbm", "MenuAbm\MenuAbm.csproj", "{FA7AA482-5055-49BF-A555-38E7264DB900}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuListado", "MenuListado\MenuListado.csproj", "{8399B10E-15C4-437A-8C52-D47C4D1E24BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{D0E26873-1604-4CD3-AB8C-E53660816402}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormProfesor", "FormProfesor\FormProfesor.csproj", "{DFABB092-B899-4512-AF4B-79F0035BF508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisTestUnitarios", "MisTestUnitarios\MisTestUnitarios.csproj", "{68807734-D7FF-4328-A6BC-9C67EB48C8F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEEF6903-B0DD-422B-82F8-993D07DE78BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEEF6903-B0DD-422B-82F8-993D07DE78BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEEF6903-B0DD-422B-82F8-993D07DE78BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEEF6903-B0DD-422B-82F8-993D07DE78BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33DC86B-80DF-4B60-99D7-0CCA9025C1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33DC86B-80DF-4B60-99D7-0CCA9025C1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33DC86B-80DF-4B60-99D7-0CCA9025C1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33DC86B-80DF-4B60-99D7-0CCA9025C1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7AA482-5055-49BF-A555-38E7264DB900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7AA482-5055-49BF-A555-38E7264DB900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7AA482-5055-49BF-A555-38E7264DB900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7AA482-5055-49BF-A555-38E7264DB900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8399B10E-15C4-437A-8C52-D47C4D1E24BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8399B10E-15C4-437A-8C52-D47C4D1E24BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8399B10E-15C4-437A-8C52-D47C4D1E24BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8399B10E-15C4-437A-8C52-D47C4D1E24BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFABB092-B899-4512-AF4B-79F0035BF508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFABB092-B899-4512-AF4B-79F0035BF508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFABB092-B899-4512-AF4B-79F0035BF508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFABB092-B899-4512-AF4B-79F0035BF508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68807734-D7FF-4328-A6BC-9C67EB48C8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68807734-D7FF-4328-A6BC-9C67EB48C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68807734-D7FF-4328-A6BC-9C67EB48C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68807734-D7FF-4328-A6BC-9C67EB48C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F33DC86B-80DF-4B60-99D7-0CCA9025C1C1} = {D0E26873-1604-4CD3-AB8C-E53660816402}
+		{FA7AA482-5055-49BF-A555-38E7264DB900} = {D0E26873-1604-4CD3-AB8C-E53660816402}
+		{8399B10E-15C4-437A-8C52-D47C4D1E24BF} = {D0E26873-1604-4CD3-AB8C-E53660816402}
+		{DFABB092-B899-4512-AF4B-79F0035BF508} = {D0E26873-1604-4CD3-AB8C-E53660816402}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27E58FDC-63B5-44FE-8042-7F7D95118F09}
+	EndGlobalSection
+EndGlobal
